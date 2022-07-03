@@ -44,3 +44,7 @@ _*For clonning: use button Clone -> from repository.
 _*Copy the clone command(SSH format or HTTPS). From a terminal on your local computer, use command "cd" to find the directory where you want to clone this repository.
 _*Type the command ($ git clone HTTPs). If you clone successfully , a new sub-directory appears on your local computer.
 _*For working with project, install "npm module" inside the working folder. (npm install): after successful install, run command (npm run build) for building project on your own computer after it type (npm run start) for star your project.}_
+
+## License
+
+Copyright (c) _07/03/2022_ _author Liliia Kryvelova(s)_
