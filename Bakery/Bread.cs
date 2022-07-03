@@ -15,6 +15,8 @@ public class Bread: IBakery
   {
     if(this.Amount == 1)
       return this.Price;
+    if(this.Amount == 2)
+      return this.Price*2;
 
     return 0;
   }
