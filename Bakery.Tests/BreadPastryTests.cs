@@ -125,5 +125,23 @@ namespace Bakery.Tests
 
             Assert.AreEqual(10, pastryPrice);
         }
+
+        [Test]
+        public void PastryChoose_Get15Cost25_true()
+        {
+            Pastry pastry = new Pastry(15, 2);
+            var pastryPrice = pastry.calculatePrice();
+
+            Assert.AreEqual(25, pastryPrice);
+        }
+
+        [Test]
+        public void PastryChoose_Get0Cost0_true()
+        {
+            Pastry pastry = new Pastry(0, 2);
+            var pastryPrice = pastry.calculatePrice();
+
+            Assert.AreEqual(0, pastryPrice);
+        }
     }
 }
