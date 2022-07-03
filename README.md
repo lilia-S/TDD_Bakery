@@ -1,5 +1,5 @@
 # _{Bakery}_
-https://github.com/liliia87/TDD_Bakery.git
+https://github.com/lilia-S/TDD_Bakery.git
 
 #### By _**{Liliia Kryvelova}**_
 
