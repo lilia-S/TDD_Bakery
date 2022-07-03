@@ -16,7 +16,15 @@ public class Pastry: IBakery
     if(this.Amount == 1)
       return this.Price = 2;
     if(this.Amount == 2)
+    {
       return this.Amount*2;
+    }
+    else
+    {
+      var amountDiscount = this.Amount/3;
+      var finalPrice = (this.Amount-amountDiscount)*2+amountDiscount;
+      return finalPrice;
+    }
 
     return 0;
   }

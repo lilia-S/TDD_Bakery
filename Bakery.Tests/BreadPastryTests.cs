@@ -98,5 +98,14 @@ namespace Bakery.Tests
 
             Assert.AreEqual(4, pastryPrice);
         }
+
+        [Test]
+        public void PastryChoose_Get3Cost5_true()
+        {
+            Pastry pastry = new Pastry(2, 2);
+            var pastryPrice = pastry.calculatePrice();
+
+            Assert.AreEqual(4, pastryPrice);
+        }
     }
 }
