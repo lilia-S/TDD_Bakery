@@ -72,7 +72,7 @@ The application should return the total cost;
 4. What if User input 3 - Bread, The cost should be 10$ -> BreadChoose_GetThreeCost10_true();
 5. What if User input 4 -Bread, The cost should be 15$ -> BreadChoose_GetFourCost15_true();
 6. What if User input 11 - Bread, The cost should be 40$ -> BreadChoose_GetElevenCost40_true();
-7. What if User input 100 - Bread, the cost should be 335 -> BreadChoose_Get100Cost335_true();
+7. What if User input 100 - Bread, the cost should be 335$ -> BreadChoose_Get100Cost335_true();
 
 Pastry class (
 Bread class (basic functionality for Pastry-> Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9, and six pastries costs $10.):
