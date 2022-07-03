@@ -73,12 +73,30 @@ namespace Bakery.Tests
         }
 
         [Test]
-        public void BreadChoose_Get1Cost2_true()
+        public void PastryChoose_Get1Cost2_true()
         {
             Pastry pastry = new Pastry(1, 2);
             var pastryPrice = pastry.calculatePrice();
 
             Assert.AreEqual(2, pastryPrice);
+        }
+
+        [Test]
+        public void PastryChoose_Get3Cost5_true()
+        {
+            Pastry pastry = new Pastry(3, 2);
+            var pastryPrice = pastry.calculatePrice();
+
+            Assert.AreEqual(5, pastryPrice);
+        }
+
+        [Test]
+        public void PastryChoose_Get2Cost4_true()
+        {
+            Pastry pastry = new Pastry(2, 2);
+            var pastryPrice = pastry.calculatePrice();
+
+            Assert.AreEqual(4, pastryPrice);
         }
     }
 }

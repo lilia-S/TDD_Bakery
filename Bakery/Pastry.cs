@@ -15,6 +15,8 @@ public class Pastry: IBakery
   {
     if(this.Amount == 1)
       return this.Price = 2;
+    if(this.Amount == 2)
+      return this.Amount*2;
 
     return 0;
   }
