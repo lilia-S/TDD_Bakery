@@ -59,6 +59,31 @@ _*Copy the clone command(SSH format or HTTPS). From a terminal on your local com
 _*Type the command ($ git clone HTTPs). If you clone successfully , a new sub-directory appears on your local computer.
 _*For working with project, install "npm module" inside the working folder. (npm install): after successful install, run command (npm run build) for building project on your own computer after it type (npm run start) for star your project.}_
 
+## Testing the app functionality on the problematic test suites and main functionality:
+
+Bread class (basic functionality for Bread-> Buy 2, get 1 free (every 3rd loaf of bread is free.). A single loaf costs $5, two loaves costs $10, and three loaves cost $10.):
+All test for main functionality located in (BreadPastryTests.cs);
+By default, we allow User to input only values greater or equal than 0; 
+
+The application should return the total cost;
+1. What if User input 0, The cost should be 0$ -> BreadChoose_GetZeroCost0_true();
+2. What if User input 1 - Bread, The cost shoud be 5$ -> BreadChoose_GetOneCost5_true();
+3. What if User input 2 - Bread, The cost should be 10$ -> BreadChoose_GetTwoCost10_true();
+4. What if User input 3 - Bread, The cost should be 10$ -> BreadChoose_GetThreeCost10_true();
+5. What if User input 4 -Bread, The cost should be 15$ -> BreadChoose_GetFourCost15_true();
+6. What if User input 11 - Bread, The cost should be 40$ -> BreadChoose_GetElevenCost40_true();
+7. What if User input 100 - Bread, the cost should be 335 -> BreadChoose_Get100Cost335_true();
+
+Pastry class (Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9, and six pastries costs $10.):
+1. What if User input 1- Pastry, The cost should be 2$ -> PastryChoose_Get1Cost2_true();
+2. What if User input 2 - Pastry, The cost should be 4$ -> PastryChoose_Get2Cost4_true();
+3. What if User input 3 - Pastry, The cost should be 5$ -> PastryChoose_Get3Cost5_true();
+4. What if User input 4 - Pastry, The cost should be 7$ -> PastryChoose_Get4Cost7_true();
+5. What if User input 5 - Pastry, The cost should be 9$ -> PastryChoose_Get5Cost9_true();
+6. What if User input 6 - Pastry, The cost should be 10$ -> PastryChoose_Get6Cost10_true();
+7. What if User input 15 - Pastry, The cost should be 25$ -> PastryChoose_Get15Cost25_true();
+8. What if User input 0 - Pastry, The cost should be 0$ -> PastryChoose_Get0Cost0_true();
+
 ## License
 
 Copyright (c) _07/03/2022_ _author Liliia Kryvelova(s)_
