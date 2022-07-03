@@ -100,12 +100,22 @@ namespace Bakery.Tests
         }
 
         [Test]
-        public void PastryChoose_Get3Cost5_true()
+        public void PastryChoose_Get4Cost7_true()
         {
-            Pastry pastry = new Pastry(2, 2);
+            Pastry pastry = new Pastry(4, 2);
             var pastryPrice = pastry.calculatePrice();
 
-            Assert.AreEqual(4, pastryPrice);
+            Assert.AreEqual(7, pastryPrice);
         }
+
+        [Test]
+        public void PastryChoose_Get5Cost9_true()
+        {
+            Pastry pastry = new Pastry(5, 2);
+            var pastryPrice = pastry.calculatePrice();
+
+            Assert.AreEqual(9, pastryPrice);
+        }
+        
     }
 }
