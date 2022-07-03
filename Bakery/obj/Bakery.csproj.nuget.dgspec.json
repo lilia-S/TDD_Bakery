@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lilia\\Epicodus\\C#\\Bakery\\Bakery\\Bakery.csproj": {}
+    "C:\\Users\\lilia\\Epicodus\\C#\\TDD_Bakery\\Bakery\\Bakery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lilia\\Epicodus\\C#\\Bakery\\Bakery\\Bakery.csproj": {
+    "C:\\Users\\lilia\\Epicodus\\C#\\TDD_Bakery\\Bakery\\Bakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lilia\\Epicodus\\C#\\Bakery\\Bakery\\Bakery.csproj",
+        "projectUniqueName": "C:\\Users\\lilia\\Epicodus\\C#\\TDD_Bakery\\Bakery\\Bakery.csproj",
         "projectName": "Bakery",
-        "projectPath": "C:\\Users\\lilia\\Epicodus\\C#\\Bakery\\Bakery\\Bakery.csproj",
+        "projectPath": "C:\\Users\\lilia\\Epicodus\\C#\\TDD_Bakery\\Bakery\\Bakery.csproj",
         "packagesPath": "C:\\Users\\lilia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lilia\\Epicodus\\C#\\Bakery\\Bakery\\obj\\",
+        "outputPath": "C:\\Users\\lilia\\Epicodus\\C#\\TDD_Bakery\\Bakery\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lilia\\AppData\\Roaming\\NuGet\\NuGet.Config"

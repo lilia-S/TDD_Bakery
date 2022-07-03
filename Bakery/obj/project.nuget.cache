@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JHgaICyQz8/FnGh6VWG0Hy2g4Eq/2P3NvVqAyFI7SKBwaYGBS7W4gR1Zhet4WPeHzhysHO/A1rnh+8iKB56UqQ==",
+  "dgSpecHash": "xved97U0Nl5mJvXnxl9IIpovt1JOtSUH1TQsEsnzFuN/iUw3l8Hu90OHP1bH7J66Qlu8yqiyERj4kMWnoDHzNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lilia\\Epicodus\\C#\\Bakery\\Bakery\\Bakery.csproj",
+  "projectFilePath": "C:\\Users\\lilia\\Epicodus\\C#\\TDD_Bakery\\Bakery\\Bakery.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
