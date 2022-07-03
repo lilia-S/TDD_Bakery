@@ -10,9 +10,9 @@ namespace Bakery
             Bread bread = new Bread(1, 5);
 
             var breadPrice = bread.calculatePrice();
-            Pastry pastry = new Pastry(1, 5);
+            Pastry pastry = new Pastry(1, 2);
 
-            var breadPrice = bread.calculatePrice();
+            var pastryPrice = pastry.calculatePrice();
         }
     }
 }

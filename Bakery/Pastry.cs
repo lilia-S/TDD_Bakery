@@ -13,7 +13,8 @@ public class Pastry: IBakery
 
   public int calculatePrice()
   {
-    
+    if(this.Amount == 1)
+      return this.Price = 2;
 
     return 0;
   }
