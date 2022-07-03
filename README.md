@@ -41,7 +41,7 @@ Open GitBash or other console application;
 
 6. For ensuring that the project is instaled in correct way Run -> dotnet test;
 
-When .NET CLI created our firs project, we will see the passed test on our display. So, it will indicate that our programm environment created a simple Unit test method. We will have to separate folders Bakery and Bakery.Tests with by default divided files and references.
+When .NET CLI created our firs project, we will see the passed test on our display. So, it will indicate that our programm environment created a simple Unit test method. on the last step we wil have separated folders Bakery and Bakery.Tests with by default divided files and references.
 
 It is the easy way for creating all necessary folders and dividing our program logic.
 
