@@ -26,22 +26,30 @@ How was Setting up the Development Environment:
 Open GitBash or other console application;
 
 1. Run -> dotnet --version; We are going to use 5.0.408.
-2. Create the work folder -> mkdir Bakery;
-3. Go into the folder and creating C# Console project 
--> cd Bakery;
+2. Create the work folder 
+-> mkdir Bakery
 
--> dotnet new console -o Bakery;
+3. Go into the folder and creating C# Console project 
+-> cd Bakery
+
+-> dotnet new console -o Bakery
 
 4. Create the NUnit Test Project(Unit Test Assembly)
--> dotnet new nunit -o Bakery.Tests;
+-> dotnet new nunit -o Bakery.Tests
 
 5. Go to the Test Project directory and add reference to the Console Project
 -> cd Bakery.Tests;
--> dotnet add referance ../Bakery/Bakery.csproj;
+-> dotnet add referance ../Bakery/Bakery.csproj
 
-6. For ensuring that the project is instaled in correct way Run -> dotnet test;
+6. For ensuring that the project is instaled in correct way Run -> dotnet test
 
 When .NET CLI created our firs project, we will see the passed test on our display. So, it will indicate that our programm environment created a simple Unit test method. on the last step we wil have separated folders Bakery and Bakery.Tests with by default divided files and references.
+
+At this point. there is an amazing feature, by running the command:
+-> dotnet watch test --nologo
+
+This command will watch for our file changes and run the test automatically each time we save the changes in our files.
+
 
 It is the easy way for creating all necessary folders and dividing our program logic.
 
