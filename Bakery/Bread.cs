@@ -22,7 +22,7 @@ public class Bread: IBakery
       var amount = this.Amount/3;
       var left = this.Amount - amount*3;
       var paidAmount = amount*2 + left;
-      var free = this.Amount - paidAmount;
+
       return paidAmount*this.Price;
     }
 

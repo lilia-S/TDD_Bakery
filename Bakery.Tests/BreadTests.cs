@@ -44,5 +44,14 @@ namespace Bakery.Tests
 
             Assert.AreEqual(15, breadPrice);
         }
+
+        [Test]
+        public void BreadChoose_GetZeroCost0_true()
+        {
+            Bread bread = new Bread(0, 5);
+            var breadPrice = bread.calculatePrice();
+
+            Assert.AreEqual(0, breadPrice);
+        }
     }
 }
