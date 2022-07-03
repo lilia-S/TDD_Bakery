@@ -53,5 +53,23 @@ namespace Bakery.Tests
 
             Assert.AreEqual(0, breadPrice);
         }
+
+        [Test]
+        public void BreadChoose_GetElevenCost40_true()
+        {
+            Bread bread = new Bread(11, 5);
+            var breadPrice = bread.calculatePrice();
+
+            Assert.AreEqual(40, breadPrice);
+        }
+
+        [Test]
+        public void BreadChoose_Get100Cost335_true()
+        {
+            Bread bread = new Bread(100, 5);
+            var breadPrice = bread.calculatePrice();
+
+            Assert.AreEqual(335, breadPrice);
+        }
     }
 }
