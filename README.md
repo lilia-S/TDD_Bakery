@@ -84,6 +84,11 @@ Pastry class (basic functionality for Pastry-> Buy 1 for $2 or 3 for $5. Four pa
 7. What if User input 15 - Pastry, The cost should be 25$ -> PastryChoose_Get15Cost25_true();
 8. What if User input 0 - Pastry, The cost should be 0$ -> PastryChoose_Get0Cost0_true();
 
+## Known Bugs
+
+* _There are possibilities to insert the 0, but return could be unexpected_
+* _There are possibilities to insert the negative numbers, but return could be unexpected_
+
 ## License
 
 Copyright (c) _07/03/2022_ _author Liliia Kryvelova(s)_
