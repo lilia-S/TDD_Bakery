@@ -1,5 +1,5 @@
 # _{Bakery}_
-https://github.com/liliia87/TDD_Bakery.git
+https://github.com/lilia-S/TDD_Bakery.git
 
 #### By _**{Liliia Kryvelova}**_
 
@@ -57,7 +57,7 @@ How to clone the working project on computer:
 _*For clonning: use button Clone -> from repository.
 _*Copy the clone command(SSH format or HTTPS). From a terminal on your local computer, use command "cd" to find the directory where you want to clone this repository.
 _*Type the command ($ git clone HTTPs). If you clone successfully , a new sub-directory appears on your local computer.
-_*For working with project, install "npm module" inside the working folder. (npm install): after successful install, run command (npm run build) for building project on your own computer after it type (npm run start) for star your project.}_
+_*For working with project, after clonint the project you need to run in the cmd ->(dotnet build) -> for runing the tests -> (dotnet test);}_
 
 ## Testing the app functionality on the problematic test suites and main functionality:
 
